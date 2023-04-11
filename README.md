@@ -5,6 +5,29 @@ Written in openscad, more to come.
 I use it for Bluethooth (BLE) to Home Assistant gateways/proxis with ESPHome.
 Currently working on using OpenMQTTgateway to support the RF modules.
 
+#Examples
+
+<img src="PNG/D1Mini-8266_Body.png" width="30%" height="30%">
+
+<img src="PNG/D1Mini-8266_Cover.png" width="30%" height="30%">
+
+<img src="PNG/D1Mini-S2_C3_Body_S2.png" width="30%" height="30%">
+
+<img src="PNG/D1Mini-S2_C3_Body_C3.png" width="30%" height="30%">
+
+<img src="PNG/D1Mini-ESP32_Body_with_screws.png" width="30%" height="30%">
+
+<img src="PNG/BTL-Proxy-With-Antenna_Body.png" width="30%" height="30%">
+
+<img src="PNG/LacosteGateway-8266-RMF69_Body_with_screws.png" width="30%" height="30%">
+
+<img src="PNG/LacosteGateway-ESP32-C1101_B-RMF68_Body.png" width="30%" height="30%">
+
+# Printing
+Find the pictures in directory PNG, the 3D models in STL.
+
+I printed with PLA, 50% infill.
+
 # Customizer
 You can choose that it uses screws (2mm self tabbing) or just holds the lid by press fit (works very nice here with my Ender 3 V2).
 RF modules can be selected (two of each with own placing).
@@ -12,9 +35,6 @@ Flavours of the ESP Mini D1 module can be selected.
 
 ## Warning
 There might be combinations of parameters that do not fit together.
-
-# Printing
-I printed with PLA, 50% infill.
 
 # Source files
 - D1MiniEnclusure.scad
