@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(TARGETS_PNG)	Makefile	/^$(TARGETS_PNG) : | version $(DEPS) $(JSON) dir_build Makefile$/;"	t
+$(TARGETS_STL)	Makefile	/^$(TARGETS_STL) : | version $(DEPS) $(JSON) dir_build Makefile$/;"	t
+%.png	Makefile	/^%.png: $(TARGETNAME).scad$/;"	t
+%.scad	Makefile	/^%.scad: %.tmpl$/;"	t
+%.stl	Makefile	/^%.stl: $(TARGETNAME).scad$/;"	t
+AUTOCENTER	Makefile	/^AUTOCENTER=--autocenter$/;"	m
+CAMERA	Makefile	/^CAMERA=--camera=0,0,0,45,0,130,500$/;"	m
+DEPS	Makefile	/^DEPS =$/;"	m
+IMAGEDIR	Makefile	/^IMAGEDIR =PNG$/;"	m
+IMAGE_SIZE	Makefile	/^IMAGE_SIZE=--imgsize 1024,1024 --viewall$/;"	m
+JSON	Makefile	/^JSON        = $(TARGETNAME).json$/;"	m
+OUTPUTDIR	Makefile	/^OUTPUTDIR =STL$/;"	m
+PARTS	Makefile	/^PARTS = $(subst ",, $(subst {,,$(subst :,,$(RAW_PARTS))))$/;"	m
+PNG_CMDS	Makefile	/^PNG_CMDS  =$(SHOW_MODULES)$/;"	m
+RAW_PARTS	Makefile	/^RAW_PARTS = $(shell grep ': {' $(JSON) | grep -v parameterSets | grep -v 'design default values'/;"	m
+REV	Makefile	/^REV =svn_rev$/;"	m
+SHOW_MODULES	Makefile	/^SHOW_MODULES=-D "ShowModules=1"$/;"	m
+TARGETNAME	Makefile	/^TARGETNAME=D1MiniEnclusure$/;"	m
+TARGETS_PNG	Makefile	/^TARGETS_PNG = $(addprefix $(IMAGEDIR)\/, $(addprefix $(TARGETNAME)_,$(addsuffix .png, $(PARTS)))/;"	m
+TARGETS_STL	Makefile	/^TARGETS_STL = $(addprefix $(OUTPUTDIR)\/, $(addprefix $(TARGETNAME)_,$(addsuffix .stl, $(PARTS))/;"	m
+VIEW	Makefile	/^VIEW=--view axes$/;"	m
+WHAT_TO_PRINT	Makefile	/^WHAT_TO_PRINT=-D "WhatToPrint=\\"$(WhatToPrint)\\""$/;"	m
+WhatToPrint	Makefile	/^WhatToPrint =print$/;"	m
+all	Makefile	/^all: stl png$/;"	t
+clean	Makefile	/^clean:$/;"	t
+debug	Makefile	/^debug:$/;"	t
+dir_build	Makefile	/^dir_build:$/;"	t
+png	Makefile	/^png : $(TARGETS_PNG)$/;"	t
+stl	Makefile	/^stl : $(TARGETS_STL)$/;"	t
+version	Makefile	/^version: $(REV).tmpl$/;"	t
