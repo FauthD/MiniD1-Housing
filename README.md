@@ -9,21 +9,24 @@ Currently working on using OpenMQTTgateway to support the RF modules.
 
 <img src="Images/Examples1.jpg" width="30%" height="30%">
 
-<img src="PNG/D1Mini-8266_Body.png" width="30%" height="30%">
 
-<img src="PNG/D1Mini-8266_Cover.png" width="30%" height="30%">
+| ESP8266     | ESP32-S2    | ESP32-S2    |
+| ----------- | ----------- | ----------- |
+| <img src="PNG/D1Mini-8266_Body.png" width="30%" height="30%"> | <img src="PNG/D1Mini-S2_C3_Body_S2.png" width="30%" height="30%"> | <img src="PNG/D1Mini-S2_C3_Body_C3.png" width="30%" height="30%"> |
 
-<img src="PNG/D1Mini-S2_C3_Body_S2.png" width="30%" height="30%">
 
-<img src="PNG/D1Mini-S2_C3_Body_C3.png" width="30%" height="30%">
+| ESP32 | ESP32 with screws | a pressfit Cover |
+| ----------- | ----------- | ----------- |
+| <img src="PNG/D1Mini-ESP32_Body.png" width="30%" height="30%"> | <img src="PNG/D1Mini-ESP32_Body_with_screws.png" width="30%" height="30%"> | <img src="PNG/D1Mini-8266_Cover.png" width="30%" height="30%"> |
 
-<img src="PNG/D1Mini-ESP32_Body_with_screws.png" width="30%" height="30%">
+| ESP32 with with space for antenna (better receive range BLE proxy) | Using an antenna from an old Fritzbox or similar 2.4 Ghz antennas do increase the range a lot. |
+| ----------- |----------- |
+| <img src="PNG/BTL-Proxy-With-Antenna_Body.png" width="30%" height="30%"> | <img src="Images/Antenna.jpg" width="30%" height="30%"> |
 
-<img src="PNG/BTL-Proxy-With-Antenna_Body.png" width="30%" height="30%">
+| ESP32 with with radios like CC1101 or RFM69 |  |
+| ----------- | ----------- |
+| <img src="PNG/LacosteGateway-8266-RMF69_Body_with_screws.png" width="30%" height="30%"> | <img src="PNG/LacosteGateway-ESP32-C1101_B-RMF68_Body.png" width="30%" height="30%"> |
 
-<img src="PNG/LacosteGateway-8266-RMF69_Body_with_screws.png" width="30%" height="30%">
-
-<img src="PNG/LacosteGateway-ESP32-C1101_B-RMF68_Body.png" width="30%" height="30%">
 
 # Printing
 Find the pictures in directory PNG, the 3D models in STL.
