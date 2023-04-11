@@ -10,7 +10,7 @@ Currently working on using OpenMQTTgateway to support the RF modules.
 <img src="Images/Examples1.jpg" width="30%" height="30%">
 
 
-| ESP8266     | ESP32-S2    | ESP32-S2    |
+| ESP8266     | ESP32-S2    | ESP32-C3    |
 | :----: | :----: | :----: |
 | <img src="PNG/D1Mini-8266_Body.png" width="30%" height="30%"> | <img src="PNG/D1Mini-S2_C3_Body_S2.png" width="30%" height="30%"> | <img src="PNG/D1Mini-S2_C3_Body_C3.png" width="30%" height="30%"> |
 
